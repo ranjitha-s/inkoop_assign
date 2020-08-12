@@ -38,7 +38,7 @@ const App = () => {
 
   return (
     <div className="container mt-5">
-      <h1 className="text-info mb-3 col-md-4">
+      <h1 className="text-info mb-3">
         <strong>
           <i>Rick and Morty episodes</i>
         </strong>
