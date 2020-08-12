@@ -50,6 +50,8 @@ const App = () => {
         nextPage={nextPage}
         prevPage={prevPage}
       />
+      <br />
+      <br />
     </div>
   );
 };

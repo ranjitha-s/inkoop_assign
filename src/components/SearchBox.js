@@ -2,7 +2,7 @@ import React from "react";
 
 function SearchBox(props) {
   return (
-    <div className="md-form mb-2 " style={{ width: "90rem" }}>
+    <div className="md-form mb-2" style={{ width: "90rem" }}>
       <input
         className="form-control"
         onChange={props.handleInput}
