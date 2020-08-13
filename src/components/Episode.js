@@ -9,9 +9,10 @@ function Episode(episode) {
       >
         <div className="card-body">
           <div>
-            <h4 className="card-title font-weight-bold mb-2">{episode.name}</h4>
+            <h4 className="card-title font-weight-bold">{episode.name}</h4>
             <p className="card-text">
-              <span className="glyphicon glyphicon-time far"></span>
+              <span className="glyphicon glyphicon-time"></span>
+              <span> </span>
               {episode.date}
             </p>
           </div>
@@ -21,8 +22,8 @@ function Episode(episode) {
             This is the episode from the famous Tv Show{" "}
             <strong>Rick and Morty</strong>
           </p>
-          <p className="mr-0 float-left font-italic">{episode.name}</p>
-          <p className="mr-0 float-right blue-text">{episode.code}</p>
+          <p className="float-left font-italic">{episode.name}</p>
+          <p className="float-right blue-text">{episode.code}</p>
         </div>
       </div>
       <p></p>

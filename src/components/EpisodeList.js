@@ -15,17 +15,21 @@ function EpisodeList(props) {
   return (
     <div>
       <div>{episodes}</div>
-      <div className="d-flex justify-content-center">
+      <div>
         <button
+          type="button"
           className="btn btn-lg btn-outline-dark previous"
           onClick={props.prevPage}
+          disabled={props.prevDisabled}
         >
           &laquo; Prev
         </button>
-        <span>&nbsp; &nbsp;</span>
         <button
+          type="button"
           className="btn btn-lg btn-outline-dark next"
           onClick={props.nextPage}
+          disabled={props.nextDisabled}
+          style={{ marginLeft: "730px" }}
         >
           Next &raquo;
         </button>
